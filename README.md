@@ -184,3 +184,4 @@ ai-ticketing-system/
 ├── Employees.jsx
 ├── Dashboard.jsx
 └── Notifications.jsx
+<img width="714" height="579" alt="image" src="https://github.com/user-attachments/assets/45ef22ae-2ea8-4ae8-b542-022f7453b550" />
