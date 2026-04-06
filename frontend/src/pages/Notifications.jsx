@@ -8,9 +8,16 @@ export default function Notifications() {
   useEffect(() => { reload() }, [])
 
   const markRead = async (id) => {
-    await markNotificationRead(id)
-    reload()
-  }
+    try {
+        await markNotificationRead(id)
+        // Optimistically update UI without full reload
+        setNotifs(prev =>
+            prev.map(n => n.id === id ? { ...n, is_read: true } : n)
+        )
+    } catch (err) {
+        console.error('Failed to mark as read:', err)
+    }
+}
 
   const unread = notifs.filter(n => !n.is_read).length
 

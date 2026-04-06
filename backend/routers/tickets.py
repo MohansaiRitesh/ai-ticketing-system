@@ -357,7 +357,8 @@ def mark_notification_read(notification_id: int, db: Session = Depends(get_db)):
     notif = db.query(models.Notification).filter(
         models.Notification.id == notification_id
     ).first()
-    if notif:
-        notif.is_read = True
-        db.commit()
+    if not notif:
+        raise HTTPException(status_code=404, detail="Notification not found")
+    notif.is_read = True
+    db.commit()
     return {"message": "Marked as read"}
