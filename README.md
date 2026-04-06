@@ -150,8 +150,12 @@ Go to `http://localhost:8000/docs` → POST /employees and add these 6 employees
 ---
 
 ## Screenshots
-
-
+<img width="1919" height="898" alt="image" src="https://github.com/user-attachments/assets/ff68e5f5-7ae9-415f-9de9-138f1417df32" />
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/d3d1d2ca-fc80-4d86-a7e2-69ebca78a0e0" />
+<img width="1916" height="913" alt="image" src="https://github.com/user-attachments/assets/f4b72b7d-08e5-498c-b936-2cd2402c8d5a" />
+<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/0df800b2-592c-4f47-8ddc-d51226cca9d5" />
+<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/22d22192-77fc-43ce-8ad7-14a2e3d7d009" />
+<img width="1450" height="895" alt="image" src="https://github.com/user-attachments/assets/3417f553-0fd8-4dbf-8407-b86e4c21b7e4" />
 
 ---
 
